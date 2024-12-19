@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom package</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <h1>Hole in One</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#About">About</a></li>
+                <li><a href="index.html#Services">Services</a></li>
+                <li><a href="index.html#Packages">Packages</a></li>
+                <li><a href="prouduct.html">Products</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="custom_package">
+        <h2>Create Your Custom Package</h2>
+        <p>Fill out the form below to create a custom package that meets your unique golfing preferences.</p>
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required autofocus>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required autofocus>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" required autofocus>
+
+            <label for="Package Duration">Package Duration</label>
+            <select id="package-duration" name="package-duration" required="">
+                <option value="1 Day">1 Day</option>
+                <option value="3 Days">3 Days</option>
+                <option value="1 Week">1 Week</option>
+                <option value="2 Weeks">2 Weeks</option>
+            </select>
+
+            <label for="Accommodation Preference">Accommodation Preference</label>
+            <select id="accommodation" name="accommodation" required="">
+                <option value="Standard Room">Standard Room</option>
+                <option value="Deluxe Suite">Deluxe Suite</option>
+                <option value="Private Villa">Private Villa</option>
+            </select>
+
+            <label for="Number of Golf Rounds">Package Duration</label>
+            <select id="golf-rounds" name="golf-rounds" required="">
+                <option value="1 Round">1 Round</option>
+                <option value="3 Rounds">3 Rounds</option>
+                <option value="5 Rounds">5 Rounds</option>
+                <option value="Unlimited">Unlimited</option>
+            </select>
+
+            <label for="additional-options">Additional Options</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="spa-access" name="additional-options" value="Spa Access">
+                <label for="spa-access">Spa Access</label><br>
+
+                <input type="checkbox" id="golf-lessons" name="additional-options" value="Golf Lessons">
+                <label for="golf-lessons">Golf Lessons</label><br>
+
+                <input type="checkbox" id="private-coach" name="additional-options" value="Private Coach">
+                <label for="private-coach">Private Coach</label><br>
+
+                <input type="checkbox" id="meals-included" name="additional-options" value="Meals Included">
+                <label for="meals-included">Meals Included</label>
+            </div>
+
+            <label for="special-requests">Special Requests</label>
+            <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+
+            <button type="submit">Submit Custom Package Request</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>© 2024 Hole in One Resort. All Rights Reserved.</h2>
+    </div>
+</body>
+
+</html>
